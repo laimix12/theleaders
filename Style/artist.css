@@ -1,0 +1,194 @@
+#artist{
+    background-image:  url("/Img/backgrounds/new/artist.png");
+    font-family: "Arial";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    min-height: 800px;
+    background-position: 80%;
+    height: auto;
+
+}
+#artist-titlezone{
+    display: inline-block;
+    /*padding: 32px 24px;*/
+    margin-top: 150px;
+}
+#artist-title{
+    font-family: "Arial";
+
+    font-size: 6.5rem;
+    color: rgb(255, 255, 255);
+    
+
+    margin-left: 80px;
+}
+
+#artist-desc{
+    display:block;
+    margin-left: 110px;
+    margin-right: 200px;
+    max-width: 900px;
+    margin-top: 110px;
+}
+#artist-desc2{
+    display:block;
+    margin-left: 400px;
+    margin-top: 80px;
+    margin-right: 800px;
+}
+
+#a-desc{
+    font-size: 20px;
+    font-family: "Arial";
+    font-weight: 560;
+    color: rgb(7, 7, 7);
+
+}
+
+#a-sign{
+    margin-top: 10px;
+    margin-right: 150px;
+    margin-left: auto;
+    margin-left: 60%;
+    font-size: 27px;
+    font-family: "Barlow";
+    margin-bottom: 0;
+    color: rgb(255, 187, 0);
+    filter: 
+        drop-shadow(rgba(0, 0, 0, 0.95) 0px 0px 10px) 
+        drop-shadow(rgba(0, 0, 0, 0.100) 0px 0px 300px) 
+        drop-shadow(rgba(0, 0, 0, 0.44) 0px 0px 20px);
+}
+
+a{
+    color:rgb(255, 187, 0);
+}
+a:hover{
+    color: red;
+}
+
+
+
+.dLink{
+    margin-top: 60px;
+    float: left;
+    padding: 0px;
+}
+
+.aLink{
+    margin: 0;
+    margin-top: 20px;
+   
+    float: left;
+    padding: 0px;
+}
+.aLink img{
+    width: 60%;
+}
+.artist-links::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.artist-links-two::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.artist-links-two{
+    margin-left: 110px;
+    margin-right: 200px;
+    max-width: 900px;
+    margin-top: 160px;
+
+}
+@media (max-width:1366px){
+    #artist-desc{
+        display:block;
+        margin-left: 200px; 
+        margin-right: 200px;
+    }
+    #artist-desc2{
+        display:block;
+        margin-left: 200px;
+        margin-top: 80px;
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:880px){
+    #artist-desc{
+        display:block;
+        margin-left: 100px; 
+        margin-right: 100px;
+    }
+    #artist-desc2{
+        display:block;
+        margin-left: 100px;
+        margin-top: 60px;
+        margin-right: 100px;
+    }
+}
+@media (max-width:500px){
+    #artist-desc{
+        display:block;
+        margin-left: 50px; 
+        margin-right: 50px;
+    }
+    #artist-desc2{
+        display:block;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-right: 50px;
+    }
+    #a-desc{
+        font-size: 20px;
+    }
+    #a-sign{
+        font-size: 20px;
+        margin-right: 50px;
+        margin-left: 70%;
+    }
+    #artist-title{
+        font-size: 4.5rem;
+        margin-right: 10px;
+    }
+    .articles{
+        margin-top: 300px;
+    }
+
+    .articles a{
+        color:black;
+    }
+    .artist-links-two{
+        margin-left: 70px;
+        margin-right: 250px;
+        max-width: 900px;
+        margin-top: 60px;
+    
+    }
+}
+@media (max-width:440px){ 
+    .artist-links-two{
+        margin-left: 70px;
+        margin-right: 180px;
+        max-width: 900px;
+        margin-top: 60px;
+    
+    }
+
+
+}
+@media (max-width:380px){ 
+    .artist-links-two{
+        margin-left: 70px;
+        margin-right: 120px;
+        max-width: 900px;
+        margin-top: 60px;
+    
+    }
+
+
+}
