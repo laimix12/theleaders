@@ -1,10 +1,10 @@
 #artist{
     background-image:  url("/Img/backgrounds/new/artist.png");
     font-family: "Arial";
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:bottom;
     background-color: black;
+    background-size: cover;
     min-height: 800px;
     background-position: 80%;
     height: auto;
@@ -17,20 +17,25 @@
 }
 #artist-title{
     font-family: "Arial";
-
     font-size: 6.5rem;
     color: rgb(255, 255, 255);
-    
-
     margin-left: 80px;
+}
+#artist-title strong{
+    font-weight: 900;
 }
 
 #artist-desc{
     display:block;
-    margin-left: 110px;
+    border-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    border-left: 3px solid;
+    padding: 21px;
+    margin-left: 80px;
     margin-right: 200px;
     max-width: 900px;
-    margin-top: 110px;
+    margin-top: 80px;
 }
 #artist-desc2{
     display:block;
@@ -42,7 +47,7 @@
 #a-desc{
     font-size: 20px;
     font-family: "Arial";
-    font-weight: 560;
+    font-weight: bolder;
     color: rgb(7, 7, 7);
 
 }
@@ -72,7 +77,7 @@ a:hover{
 
 
 .dLink{
-    margin-top: 60px;
+    margin-top: 15px;
     float: left;
     padding: 0px;
 }
@@ -101,13 +106,13 @@ a:hover{
     margin-left: 110px;
     margin-right: 200px;
     max-width: 900px;
-    margin-top: 160px;
+    margin-top: 290px;
 
 }
 @media (max-width:1366px){
     #artist-desc{
         display:block;
-        margin-left: 200px; 
+        margin-left: 80px; 
         margin-right: 200px;
     }
     #artist-desc2{
@@ -134,8 +139,9 @@ a:hover{
 @media (max-width:500px){
     #artist-desc{
         display:block;
-        margin-left: 50px; 
+        margin-left: 19px; 
         margin-right: 50px;
+        padding: 10px;
     }
     #artist-desc2{
         display:block;
@@ -154,6 +160,7 @@ a:hover{
     #artist-title{
         font-size: 4.5rem;
         margin-right: 10px;
+        margin-left: 40px;
     }
     .articles{
         margin-top: 300px;
@@ -165,7 +172,15 @@ a:hover{
     .artist-links-two{
         margin-left: 70px;
         margin-right: 250px;
-        max-width: 900px;
+        max-width: 138px;
+        margin-top: 60px;
+    
+    }
+    .artist-links-two:nth-child(even){
+        display: inline-block;
+        margin-left: 70px;
+        margin-right: 250px;
+        max-width: 138px;
         margin-top: 60px;
     
     }
@@ -174,7 +189,6 @@ a:hover{
     .artist-links-two{
         margin-left: 70px;
         margin-right: 180px;
-        max-width: 900px;
         margin-top: 60px;
     
     }

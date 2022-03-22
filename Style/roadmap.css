@@ -29,21 +29,25 @@ main {
 
 #roadmap .roadmap-title{
   font-family: "Arial";
-  margin-top: 50px;
-  font-size: 5.5rem;
+  font-size: 6.5rem;
   margin-bottom: 32px;
   margin-right: 110px;
-  margin-left: 110px;
+  margin-left: 80px;
   color: rgb(255, 255, 255);
 
 
 }
+
+#roadmap .roadmap-title strong{
+  font-weight: 900;
+}
+
 #roadmap p{
   font-family: "Arial";
   font-size: 1.2em;
   line-height: 1.75em;
   border-top: 3px solid;
-  border-image: linear-gradient(to right, #ff7300 0%, #ffd900 100%);
+  border-image: linear-gradient(to right, #b6b6b6 0%, #ffd900 100%);
   border-image-slice: 1;
   border-width: 3px;
   margin: 0;
@@ -157,6 +161,6 @@ p:last-child {
     #roadmap .roadmap-title{
       margin-left: 15px;
       margin-right: 15px;
-      font-size: 4rem;
+      font-size: 4.1rem;
     }
   }
