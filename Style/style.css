@@ -66,6 +66,7 @@ body{
 
 .links{
     margin:auto;
+    z-index: 2;
   }
   
   .socialLinkImg{

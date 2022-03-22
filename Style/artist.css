@@ -5,8 +5,8 @@
     background-position:bottom;
     background-color: black;
     background-size: cover;
-    min-height: 800px;
-    background-position: 80%;
+    min-height: 700px;
+    background-position: 73%;
     height: auto;
 
 }
@@ -18,7 +18,7 @@
 #artist-title{
     font-family: "Arial";
     font-size: 6.5rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: 80px;
 }
 #artist-title strong{
@@ -27,7 +27,7 @@
 
 #artist-desc{
     display:block;
-    border-image: linear-gradient(to right, #ffffff 0%, #ffffff 100%);
+    border-image: linear-gradient(to right, #000000 0%, #ffffff 100%);
     border-image-slice: 1;
     border-width: 3px;
     border-left: 3px solid;
