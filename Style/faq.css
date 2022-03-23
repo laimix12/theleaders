@@ -50,17 +50,19 @@
     background-color: #001225;
     color: gold;
     font-family: "Arial";
-    font-size: large;
+    font-size: 19px;
   }
   
   .faq-open-icon {
     font-size: 22px;
     position: absolute;
     top: 18px;
-    right: 24px;
+    right: 22px;
+
     font-weight: 700;
-    margin-left: 10px;
-    padding-left: 10px;
+    margin-left: 100px;
+
+    padding-left: 100px;
   }
   
   details[open] .faq-open-icon {
