@@ -1,5 +1,4 @@
 #roadmap{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.527)), url("/Img/backgrounds/new/roadmap-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,6 +8,29 @@
     
 }
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+
+#pageTitleC-div{
+  display: inline-block;
+  /*padding: 32px 24px;*/
+  margin-top: 0px;
+}
+
+#pageTitleC img{
+  /*font-family: "Arial";*/
+  max-width: 90%;
+  color: rgb(255, 255, 255);
+  margin-left: 0px;
+}
+
+#pageTitleC{
+  font-family: "Arial";
+  font-size: 7.5rem;
+  color: rgb(255, 255, 255);
+  margin-left: 100px;
+  padding-bottom: 0;
+}
+
 h1{
     font-size: 1rem;
     text-align: center;
@@ -26,7 +48,7 @@ main {
   margin-bottom: 50px;
   margin-left: 100px;
 }
-
+/*
 #roadmap .roadmap-title{
   font-family: "Arial";
   font-size: 6.5rem;
@@ -79,7 +101,7 @@ p::before {
     font-size: 1em;
   }
 */
-
+/*
 p:nth-child(odd) {
     border-right: 3px solid;
     padding-left: 0;
@@ -163,4 +185,4 @@ p:last-child {
       margin-right: 15px;
       font-size: 4.1rem;
     }
-  }
+  }*/
