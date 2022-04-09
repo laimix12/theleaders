@@ -1,0 +1,36 @@
+#ukraine{
+    background-image:  url("/Img/backgrounds/new/ukraine.png");
+    font-family: "Arial";
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-color: black;
+    background-size: cover;
+    min-height: 50px;
+    background-position: 73%;
+
+}
+#pageTitleUk-div{
+    display: inline-block;
+    /*padding: 32px 24px;*/
+    margin-top: 0px;
+}
+
+#pageTitleUk img{
+    /*font-family: "Arial";*/
+    max-width: 90%;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+}
+#pageTitleUk{
+    font-family: "Arial";
+    font-size: 7.5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+    padding-bottom: 0;
+}
+#uk-container{
+    margin:auto;
+    margin-left:22%;
+    margin-right: 22%;
+    margin-top:80px;
+}
