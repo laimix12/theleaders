@@ -6,7 +6,7 @@
     background-color: black;
     background-size: cover;
     min-height: 50px;
-    background-position: 73%;
+    background-position: 78%;
     height: auto;
 
 }
@@ -27,6 +27,7 @@
     font-size: 7.5rem;
     color: rgb(255, 255, 255);
     margin-left: 80px;
+    margin-right: 300px;
     padding-bottom: 0;
   }
 #artist-titlezone{

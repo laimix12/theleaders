@@ -46,15 +46,16 @@ main {
   max-width: 500px;
   margin:auto;
   margin-bottom: 700px;
-  margin-left: 100px;
+  margin-left: 1000px;
   margin-right: 0;
 
 }
 
 main img{
   position: absolute;
-  right: 0;
-  max-width: 100%;
+  left: 100px;
+  right: 0px;
+  max-width: 93%;
   min-height: 40%;
   margin-left: 0px;
 }

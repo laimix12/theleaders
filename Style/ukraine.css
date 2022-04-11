@@ -7,6 +7,7 @@
     background-size: cover;
     min-height: 50px;
     background-position: 73%;
+    height: auto;
 
 }
 #pageTitleUk-div{
@@ -30,7 +31,27 @@
 }
 #uk-container{
     margin:auto;
-    margin-left:22%;
-    margin-right: 22%;
+    min-height:400px;
     margin-top:80px;
+    margin-bottom: 100px;
+}
+
+iframe{
+    margin-left: 24%;
+    margin-right: 20%;
+    width: 50%;
+    min-height: 300px;
+    height: 600px;
+
+}
+
+@media (max-width:1700px){ 
+    iframe{
+        height: 400px;
+    }
+}
+@media (max-width:1300px){ 
+    iframe{
+        height: 300px;
+    }
 }
