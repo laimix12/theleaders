@@ -45,8 +45,18 @@ main {
   min-width: 300px;
   max-width: 500px;
   margin:auto;
-  margin-bottom: 50px;
+  margin-bottom: 700px;
   margin-left: 100px;
+  margin-right: 0;
+
+}
+
+main img{
+  position: absolute;
+  right: 0;
+  max-width: 100%;
+  min-height: 40%;
+  margin-left: 0px;
 }
 /*
 #roadmap .roadmap-title{
