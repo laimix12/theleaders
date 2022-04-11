@@ -211,6 +211,18 @@ a:hover{
     
     }
 }
+
+@media (max-width:1600px){ 
+    #pageTitleA{
+        font-family: "Arial";
+        font-size: 7.5rem;
+        color: rgb(255, 255, 255);
+        margin-left: 80px;
+        margin-right: 0px;
+        padding-bottom: 0;
+      }
+}
+
 @media (max-width:440px){ 
     .artist-links-two{
         margin-left: 70px;
@@ -218,8 +230,6 @@ a:hover{
         margin-top: 60px;
     
     }
-
-
 }
 @media (max-width:380px){ 
     .artist-links-two{

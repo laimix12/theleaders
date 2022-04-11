@@ -18,7 +18,7 @@
 
 #pageTitleC img{
   /*font-family: "Arial";*/
-  max-width: 100%;
+  max-width: 90%;
   color: rgb(255, 255, 255);
   margin-left: 0px;
 }
@@ -65,17 +65,10 @@ main img{
     margin-bottom: 910px; 
   }
   main img{
-    max-width: 96%;
+    max-width: 93%;
   }
 }
-@media (max-width:2500px){
-  main{
-    margin-bottom: 910px; 
-  }
-  main img{
-    max-width: 96%;
-  }
-}
+
 
 @media (max-width:2000px){
   main{
